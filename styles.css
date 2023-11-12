@@ -1,0 +1,84 @@
+    @font-face {
+	font-family: 'TrebuchetMS-Bold-Italic';
+	src: url('fonts/Trebuchet-MS-Bold-Italic.ttf')
+    }
+
+    @font-face{
+	font-family: 'Trebuchet-MS-Bold';
+	src: url('fonts/Trebuchet-MS-Bold.ttf')
+    }
+
+    @font-face {
+	font-family: 'Trebuchet-MS-Italic';
+	src: url('fonts/Trebuchet-MS-Italic.ttf')
+    }
+
+    @font-face{
+	font-family: 'Trebuchet-MS';
+	src: url('fonts/Trebuchet-MS.ttf')
+    }
+
+    body {
+    background: black;
+    color: white;
+    font-family: 'Trebuchet-MS', sans-serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+    }
+
+    img {
+    border-radius: 50%;
+    }
+
+    .profile-picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    height: auto;
+    max-width: 100px;
+    }
+
+    .profile-name {
+    text-align: center;
+    padding: 20px;
+    }
+
+    .links {
+    font-family: 'Trebuchet-MS', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid;
+    border-color: white;
+    border-width: 2px;
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    }
+
+    a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.5s;
+    }
+
+    .bottom-text {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 12px;
+    }
+
+    .simple-text{
+    text-align: center;
+    margin-top: 0px;
+    font-size: 12px;
+    }
+
+    a:hover {
+    font-family: 'Trebuchet-MS-Bold', sans-serif;
+    color: black;
+    background: white;
+    }
