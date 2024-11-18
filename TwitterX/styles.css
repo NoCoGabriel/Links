@@ -1,21 +1,21 @@
     @font-face {
-    font-family: 'TrebuchetMS-Bold-Italic';
-    src: url('fonts/Trebuchet-MS-Bold-Italic.ttf')
+	font-family: 'TrebuchetMS-Bold-Italic';
+	src: url('fonts/Trebuchet-MS-Bold-Italic.ttf')
     }
 
     @font-face{
-    font-family: 'Trebuchet-MS-Bold';
-    src: url('fonts/Trebuchet-MS-Bold.ttf')
+	font-family: 'Trebuchet-MS-Bold';
+	src: url('fonts/Trebuchet-MS-Bold.ttf')
     }
 
     @font-face {
-    font-family: 'Trebuchet-MS-Italic';
-    src: url('fonts/Trebuchet-MS-Italic.ttf')
+	font-family: 'Trebuchet-MS-Italic';
+	src: url('fonts/Trebuchet-MS-Italic.ttf')
     }
 
     @font-face{
-    font-family: 'Trebuchet-MS';
-    src: url('fonts/Trebuchet-MS.ttf')
+	font-family: 'Trebuchet-MS';
+	src: url('fonts/Trebuchet-MS.ttf')
     }
 
     body {
