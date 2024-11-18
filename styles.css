@@ -1,50 +1,50 @@
-    @font-face {
+@font-face {
     font-family: 'TrebuchetMS-Bold-Italic';
-    src: url('fonts/Trebuchet-MS-Bold-Italic.ttf')
-    }
+    src: url('fonts/Trebuchet-MS-Bold-Italic.ttf');
+}
 
-    @font-face{
+@font-face {
     font-family: 'Trebuchet-MS-Bold';
-    src: url('fonts/Trebuchet-MS-Bold.ttf')
-    }
+    src: url('fonts/Trebuchet-MS-Bold.ttf');
+}
 
-    @font-face {
+@font-face {
     font-family: 'Trebuchet-MS-Italic';
-    src: url('fonts/Trebuchet-MS-Italic.ttf')
-    }
+    src: url('fonts/Trebuchet-MS-Italic.ttf');
+}
 
-    @font-face{
+@font-face {
     font-family: 'Trebuchet-MS';
-    src: url('fonts/Trebuchet-MS.ttf')
-    }
+    src: url('fonts/Trebuchet-MS.ttf');
+}
 
-    body {
+body {
     background: black;
     color: white;
     font-family: 'Trebuchet-MS', sans-serif;
     font-size: 16px;
     letter-spacing: 2px;
-    }
+}
 
-    img {
+img {
     border-radius: 50%;
-    }
+}
 
-    .profile-picture {
+.profile-picture {
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10%;
     height: auto;
     max-width: 100px;
-    }
+}
 
-    .profile-name {
+.profile-name {
     text-align: center;
     padding: 20px;
-    }
+}
 
-    .links {
+.links {
     font-family: 'Trebuchet-MS', sans-serif;
     text-align: center;
     margin-top: 20px;
@@ -57,28 +57,73 @@
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
-    }
+    transition: background-color 0.5s, color 0.5s;
+}
 
-    a {
+/* Couleurs spécifiques pour chaque lien au survol */
+.links:nth-of-type(1):hover { /* Twitter / X */
+    background-color: white; /* Bleu Twitter */
+    color: black;
+}
+
+.links:nth-of-type(2):hover { /* Bluesky */
+    background-color: #72C3FF; /* Bleu clair */
+    color: black;
+}
+
+.links:nth-of-type(3):hover { /* Mastodon */
+    background-color: #6364FF; /* Violet Mastodon */
+    color: white;
+}
+
+.links:nth-of-type(4):hover { /* YouTube */
+    background-color: #FF0000; /* Rouge YouTube */
+    color: white;
+}
+
+.links:nth-of-type(5):hover { /* Peertube */
+    background-color: #FFDD55; /* Jaune */
+    color: black;
+}
+
+.links:nth-of-type(6):hover { /* CPU */
+    background-color: lightgrey; /* Vert */
+    color: black;
+}
+
+.links:nth-of-type(7):hover { /* GitHub */
+    background-color: #333333; /* Gris GitHub */
+    color: white;
+}
+
+.links:nth-of-type(8):hover { /* LinkedIn */
+    background-color: #0072b1; /* Bleu LinkedIn */
+    color: white;
+}
+
+.links:nth-of-type(9):hover { /* Mail */
+    background-color: #0078D4; /* Bleu Outlook */
+    color: white;
+}
+
+a {
     text-decoration: none;
     color: white;
     transition: color 0.5s;
-    }
+}
 
-    .bottom-text {
+a:hover {
+    font-family: 'Trebuchet-MS-Bold', sans-serif;
+}
+
+.bottom-text {
     text-align: center;
     margin-top: 40px;
     font-size: 12px;
-    }
+}
 
-    .simple-text{
+.simple-text {
     text-align: center;
     margin-top: 0px;
     font-size: 12px;
-    }
-
-    a:hover {
-    font-family: 'Trebuchet-MS-Bold', sans-serif;
-    color: black;
-    background: white;
-    }
+}
