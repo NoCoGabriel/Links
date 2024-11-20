@@ -61,21 +61,23 @@ img {
 }
 
 /* Couleurs spécifiques pour chaque lien au survol */
-.links:nth-of-type(1):hover { /* Twitter / X */
-    background-color: white; /* Bleu Twitter */
-    color: black;
-}
-
-.links:nth-of-type(2):hover { /* Bluesky */
+.links:nth-of-type(1):hover { /* Bluesky */
     background-color: #72C3FF; /* Bleu clair */
     color: black;
 }
 
-.links:nth-of-type(3):hover { /* Mastodon */
+.links:nth-of-type(2):hover { /* Mastodon */
     background-color: #6364FF; /* Violet Mastodon */
     color: white;
 
 }
+
+.links:nth-of-type(3):hover { /* Insta */
+    background-color: #F2A0AF; /* Logo Insta */
+    color: white;
+
+}
+
 .links:nth-of-type(4):hover { /* Youtube */
     background-color: #FF4081; /* Magenta-Pink YouTube */
     color: white;
